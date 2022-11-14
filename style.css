@@ -4,14 +4,16 @@
     box-sizing:border-box;
 }
 
-
+html, body {
+  overflow-x: hidden;
+}
 
 
 body {
+    position:relative;
     display:flex;
     flex-direction:column;
     font-family:'Inter';
-    overflow-x: hidden;
     height:100vh;
 }
 
